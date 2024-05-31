@@ -1,0 +1,65 @@
+<!-- SPDX-FileCopyrightText: 2024 Infineon Technologies AG -->
+<!-- SPDX-License-Identifier: MIT -->
+
+<resources>
+
+    <string name="splashscreen_contentdescription">Infineon example app</string>
+
+    <!--NBT Personalization -->
+    <!-- Titles -->
+    <string name="app_title">NBT Personalization</string>
+    <string name="app_label">NBT PERSO</string>
+    <string name="app_subtitle">OPTIGA&#8482;\u00A0Authenticate\u00A0NBT</string>
+    <!-- Notifications -->
+    <!-- App specific strings -->
+    <string name="string_card_tap">Tap your mobile phone to the OPTIGA&#8482;\u00A0Authenticate\u00A0NBT to check its use case capabilities!</string>
+    <string name="string_usecase">Available interactions are listed below:</string>
+
+    <string name="string_missing_selection">Please select a use case beforehand and try again!</string>
+    <string name="string_select_usecase">Please select the use case you would like to personalize the OPTIGA&#8482;\u00A0Authenticate\u00A0NBT for!\n</string>
+
+    <string name="string_already_personalized">The OPTIGA&#8482;\u00A0Authenticate\u00A0NBT is already personalized for a use case, please reset the device!\n</string>
+    <string name="string_no_error">No error message available…\n</string>
+
+    <string name="string_adt">Async. data transfer</string>
+    <string name="string_brandprot">Brand protection</string>
+    <string name="string_passThrough">Pass-through</string>
+    <string name="string_ble_connection">Static conn. handover</string>
+    <string name="string_reset">Reset to delivery state</string>
+
+    <string name="string_brandprotection_tap">Enter a COTT server address and tap your mobile phone to the OPTIGA&#8482;\u00A0Authenticate\u00A0NBT to personalize it for the <i>brand protection</i> use case!\n</string>
+    <string name="string_brandprotection_success">OPTIGA&#8482;\u00A0Authenticate\u00A0NBT successfully personalized for the <i>brand protection</i> use case, returning to main application!\n</string>
+    <string name="string_default_link">optiga-nbt-cott-service.infineon.com</string>
+    <string name="string_cott_server">Enter verification server for COTT:</string>
+    <string name="url_error">Please enter a valid URL!\n</string>
+
+    <string name="string_adt_tap">Please tap your phone to the OPTIGA&#8482;\u00A0Authenticate\u00A0NBT to personalize it for the <i>host parameterization via async. data transfer</i> use case!\n</string>
+    <string name="string_adt_success">OPTIGA&#8482;\u00A0Authenticate\u00A0NBT successfully personalized for the <i>host parameterization via async. data transfer</i> use case, returning to main application!\n</string>
+
+    <string name="string_ble_tap">Please enter the desired Bluetooth address and tap your mobile phone to the OPTIGA&#8482;\u00A0Authenticate\u00A0NBT to personalize it for the <i>static connection handover</i> use case!\n</string>
+    <string name="string_bluetooth_mac">Enter Bluetooth MAC:</string>
+    <string name="string_hint_mac">e.g. "AABBCCDDEEFF"</string>
+    <string name="string_ble_success">OPTIGA&#8482;\u00A0Authenticate\u00A0NBT successfully personalized for the <i>static connection handover</i> use case, returning to main application!\n</string>
+    <string name="string_length_error">Please ensure that the Bluetooth MAC is 6 bytes long!\n</string>
+
+    <string name="string_reset_tap">Please tap your mobile phone to the OPTIGA&#8482;\u00A0Authenticate\u00A0NBT to reset it to its default state! This may take a few seconds…\n</string>
+    <string name="string_reset_success">OPTIGA&#8482;\u00A0Authenticate\u00A0NBT restored to default state, returning to main application!\n</string>
+    <string name="string_reset_error">Reset not successful, please keep the OPTIGA&#8482;\u00A0Authenticate\u00A0NBT close to the NFC antenna of your mobile phone and retry!\n</string>
+
+    <string name="string_passthrough_tap">Please tap your mobile phone to the OPTIGA&#8482;\u00A0Authenticate\u00A0NBT to personalize it for the <i>host parameterization via pass-through</i> use case!\n</string>
+    <string name="string_passthrough_success">OPTIGA&#8482;\u00A0Authenticate\u00A0NBT successfully personalized for the <i>host parameterization via pass-through</i> use case, returning to main application!\n</string>
+
+    <string name="string_error">An error occurred, please retry!</string>
+    <string name="string_unknown_tag">Unknown tag type!</string>
+
+    <string name="scan_info">Please make sure to give the app essential location permissions</string>
+    <string name="phone_desc">Phone icon</string>
+    <string name="tag_desc">Tag icon</string>
+    <string name="state_desc">Stage icon</string>
+    <string name="button_desc">Button for use case</string>
+    <string name="return_desc">Return button</string>
+    <string name="write_desc">Writing to tag icon</string>
+    <string name="link_desc">Input for COTT link</string>
+    <string name="mac_desc">MAC of Bluetooth device</string>
+
+</resources>
