@@ -1,13 +1,13 @@
 <!--
-SPDX-FileCopyrightText: 2024 Infineon Technologies AG
+SPDX-FileCopyrightText: Copyright (c) 2024-2025 Infineon Technologies AG
 SPDX-License-Identifier: MIT
 -->
 
 # OPTIGA™ Authenticate NBT PERSO Application for Android
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
-[![REUSE Compliance Check](https://github.com/Infineon/optiga-nbt-example-perso-android/actions/workflows/linting-test.yml/badge.svg?branch=main)](https://github.com/Infineon/optiga-nbt-example-perso-android/actions/workflows/linting-test.yml)
-
+[![REUSE compliance check](https://github.com/Infineon/optiga-nbt-example-perso-android/actions/workflows/linting-test.yml/badge.svg?branch=main)](https://github.com/Infineon/optiga-nbt-example-perso-android/actions/workflows/linting-test.yml)
+[![Android build](https://github.com/Infineon/optiga-nbt-example-perso-android/actions/workflows/android-build.yml/badge.svg?branch=main)](https://github.com/Infineon/optiga-nbt-example-perso-android/actions/workflows/android-build.yml)
 
 This is the *NBT Personalization* mobile phone app, a Java-based *Android Studio* project which demonstrates the *personalization of the OPTIGA™ Authenticate NBT via NFC (PERSO)*.
 
@@ -124,4 +124,7 @@ In case of questions regarding this repository and its contents, refer to [MAINT
 
 Please see our [LICENSE](LICENSE) for copyright and license information.
 
-This project follows the [REUSE](https://reuse.software/) approach, so copyright and licensing information is available for every file (including third party components) either in the file header, an individual *.license file or the .reuse/dep5 file. All licenses can be found in the [LICENSES](LICENSES) folder.
+This project follows the [REUSE](https://reuse.software/) approach, so copyright and licensing
+information is available for every file (including third party components) either in the file
+header, an individual *.license file or the [REUSE.toml](REUSE.toml) file. All licenses can be found in the
+[LICENSES](LICENSES) folder.
